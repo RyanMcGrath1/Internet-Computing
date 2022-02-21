@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<form>
+    <div class="fullName">
+        <label for="fullName" style="padding-right: 70px">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" placeholder="John Doe" style="">
+    </div>
+    <div class="emailBox">
+        <label for="email">MSU E-mail Address:</label>
+        <input type="email" id="email" name="email" placeholder="name@montclair.edu" pattern=".@montclair\.edu"><br>
+    </div>
+    <div class="requestDate">
+        <label for="requestDate" style="padding-right: 52px"> Request Date:</label>
+        <input type="date" id="requestDate" name="requestDate"><br>
+    </div>
+    <div class="requestBuilding" style="padding-right: 40px">
+        <form action="/action_page.php" style="padding-right: 40px">
+            <label for="drop" style="padding-right: 27px">Request Building:</label>
+            <select name="options" id="drop">
+                <option value="CCIS">CCIS</option>
+                <option value="CELS">CELS</option>
+                <option value="Richardson Hall">Richardson Hall</option>
+                <option value="Science Hall">Science Hall</option>
+            </select>
+            <br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear">
+        </form>
+    </div>
+</form>
+
+
+</body>
+
+<style>
+    select#drop, select#drop option {
+        text-align: center;
+    }
+</style>
+
+</html>

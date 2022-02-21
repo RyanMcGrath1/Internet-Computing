@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NestedList</title>
+</head>
+<body>
+
+</body>
+
+<div class="nestedList" style="padding-bottom: 200px">
+    <ul style="border: black">
+        <li>General Aviation (piston-driven engines)
+            <ul>
+                <li style="list-style-type: decimal">Single-Engine Aircraft
+                    <ul style="list-style-type: lower-roman">
+                        <li>Tail wheel</li>
+                        <li style="padding-bottom: 10px">Tricycle</li>
+                    </ul>
+                </li>
+                <li style="list-style-type: decimal"> Dual-Engine Aircraft
+                    <ul style="list-style-type: upper-roman">
+                        <li>Wing-mounted engines</li>
+                        <li style="padding-bottom: 10px">Fuselage-mounted engines</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>Commercial Aviation (jet engines)
+            <ul>
+                <li style="list-style-type: decimal">Dual-Engine
+                    <ul style="list-style-type: lower-alpha">
+                        <li>Wing-mounted engines</li>
+                        <li style="padding-bottom: 10px">Fuselage-mounted engines</li>
+                    </ul>
+                </li>
+                <li style="list-style-type: decimal">Tri-Engine
+                    <ul style="list-style-type: upper-alpha">
+                        <li>Third engine in vertical stabilizer</li>
+                        <li>Third engine in fuselage</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+<style>
+
+    .nestedList {
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
+
+</html>

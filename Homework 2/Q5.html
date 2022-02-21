@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Q5</title>
+    <style>
+        .Circle1 {
+            height: 80px;
+            width: 80px;
+            background-color: red;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,50%);
+            transition: all 2s linear;
+        }
+
+
+        .Circle2 {
+            height: 80px;
+            width: 80px;
+            background-color: green;
+            border-radius: 50%;
+            float: right;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="redCircle">
+    <span class="Circle1" id="Circle1"></span>
+</div>
+<div class="greenCircle">
+    <span class="Circle2" id="Circle2"></span>
+</div>
+<script src="Movement.js"></script>
+</body>
+</html>
